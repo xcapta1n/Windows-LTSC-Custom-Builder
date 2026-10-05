@@ -21,11 +21,21 @@ Standard operating systems come pre-loaded with excessive telemetry, background 
 ### ⚠️ Important Note on Copyright & Licensing
 Due to Microsoft’s copyright policies and distribution terms, **pre-built ISO images are NOT provided** in this repository. However, you can use the included `windows-ltsc-debloat-preset.xml` file inside NTLite to build your own clean, optimized image legally from an official Microsoft ISO.
 
-### 🚀 How to Use
-1. Download an official Windows 11 Enterprise LTSC ISO.
-2. Open **NTLite** and load the image.
-3. Import the `windows-ltsc-debloat-preset.xml` file into NTLite.
-4. Review the components/tweaks and hit **Process** to generate your custom optimized ISO.
+### 🚀 Step-by-Step Guide: How to Build Your Custom LTSC Image
+1. **Download the Official ISO:** Obtain an official evaluation or licensed **Windows 11 Enterprise LTSC** ISO from the official Microsoft Evaluation Center or your MSDN/VLSC portal.
+2. **Extract or Mount the ISO:** Right-click the downloaded ISO file and select **Mount** (or extract its contents using 7-Zip/WinRAR to a local folder on your drive).
+3. **Set Up NTLite:** Download and install the free version of **NTLite** on your host machine.
+4. **Load the Source Image:** 
+   * Open NTLite, click on **Add** at the top left, and select **Image directory (folder)** pointing to your mounted/extracted Windows 11 LTSC files.
+   * Select the specific edition (e.g., *Windows 11 Enterprise LTSC*) when prompted and let NTLite load the image.
+5. **Import the Preset:** 
+   * Go to the **Presets** tab in NTLite.
+   * Click on **Import** and select the **`clean-ltsc-preset.xml`** file from this repository.
+   * Load/apply the preset to configure all component removals and settings automatically.
+6. **Review and Process:** 
+   * Review the changes across the Components, Services, and Settings tabs if desired.
+   * Navigate to the **Apply** tab, check **Save changes to image**, enable **Create ISO**, and hit the **Proceed** (Play) button at the top.
+7. **Done:** Once the process finishes, your customized, game-optimized LTSC ISO file will be ready on your disk for a clean installation via USB!
 
 ---
 
@@ -46,8 +56,17 @@ Standart işletim sistemleri; arka planda çalışan gereksiz servisler, telemet
 ### ⚠️ Telif Hakkı ve Lisanslama Üzerine Önemli Not
 Microsoft'un telif hakkı politikaları ve dağıtım koşulları nedeniyle bu repoda **hazır ISO görüntüleri YER ALMAMAKTADIR**. Ancak, resmi bir Microsoft ISO'sundan kendi temiz imajınızı yasal olarak oluşturmak için NTLite içinde ürünle birlikte gelen `windows-ltsc-debloat-preset.xml` dosyasını kullanabilirsiniz.
 
-### 🚀 Nasıl Kullanılır?
-1. Resmi bir Windows 11 Enterprise LTSC ISO dosyası indirin.
-2. **NTLite** programını açın ve imajı yükleyin.
-3. `windows-ltsc-debloat-preset.xml` dosyasını NTLite'a aktarın (import edin).
-4. Bileşenleri/ayarları inceleyin ve özel imajınızı oluşturmak için **Process (İşle)** butonuna basın.
+### 🚀 Adım Adım Rehber: Özel LTSC İmajınızı Nasıl Oluşturursunuz?
+1. **Orijinal ISO'yu İndirin:** Microsoft Evaluation Center veya resmi lisanslı kanallar üzerinden orijinal **Windows 11 Enterprise LTSC** ISO dosyasını temin edin.
+2. **ISO'yu Sürücüye Bağlayın (Mount):** İndirdiğiniz ISO dosyasına sağ tıklayıp **Bağla (Mount)** seçeneğini seçin (Alternatif olarak 7-Zip ile klasöre de çıkartabilirsiniz).
+3. **NTLite'ı Hazırlayın:** Bilgisayarınıza **NTLite** programının güncel sürümünü kurun.
+4. **Kaynak İmajı NTLite'a Yükleyin:** 
+   * NTLite'ı açın, sol üstteki **Ekle (Add)** butonuna basın ve bağladığınız/çıkarttığınız Windows 11 LTSC klasörünü seçin.
+   * Listeden uygun sürümü (*Windows 11 Enterprise LTSC*) seçerek imajın yüklenmesini bekleyin.
+5. **Preset Dosyasını İçe Aktarın:** 
+   * NTLite içindeki **Presets (Ön Ayarlar)** sekmesine gelin.
+   * **İçe Aktar (Import)** diyerek bu repodan indirdiğiniz **`clean-ltsc-preset.xml`** dosyasını seçin ve yükleyin.
+6. **İnceleyin ve İşlemi Başlatın:** 
+   * İsterseniz bileşenler ve servisler sekmesinden yapılan ayarları gözden geçirebilirsiniz.
+   * **Apply (Uygula)** sekmesine gelin, değişiklikleri imaja kaydet seçeneğini işaretleyin, **ISO oluştur (Create ISO)** kutucuğunu aktif edin ve üstteki **Proceed (İşle / Başlat)** butonuna tıklayın.
+7. **Hazır!** İşlem tamamlandığında, USB belleğe yazdırarak temiz kurulum yapabileceğiniz optimize edilmiş özel LTSC ISO dosfanız masaüstünüzde hazır olacaktır.
