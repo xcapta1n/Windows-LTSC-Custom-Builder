@@ -69,4 +69,4 @@ Microsoft'un telif hakkı politikaları ve dağıtım koşulları nedeniyle bu r
 6. **İnceleyin ve İşlemi Başlatın:** 
    * İsterseniz bileşenler ve servisler sekmesinden yapılan ayarları gözden geçirebilirsiniz.
    * **Apply (Uygula)** sekmesine gelin, değişiklikleri imaja kaydet seçeneğini işaretleyin, **ISO oluştur (Create ISO)** kutucuğunu aktif edin ve üstteki **Proceed (İşle / Başlat)** butonuna tıklayın.
-7. **Hazır!** İşlem tamamlandığında, USB belleğe yazdırarak temiz kurulum yapabileceğiniz optimize edilmiş özel LTSC ISO dosfanız masaüstünüzde hazır olacaktır.
+7. **Hazır!** İşlem tamamlandığında, USB belleğe yazdırarak temiz kurulum yapabileceğiniz optimize edilmiş özel LTSC ISO dosyanız masaüstünüzde hazır olacaktır.
