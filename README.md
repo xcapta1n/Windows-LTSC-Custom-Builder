@@ -19,7 +19,7 @@ Standard operating systems come pre-loaded with excessive telemetry, background 
 * **Gaming & Dev Compatibility:** Carefully preserved core dependencies (DirectX, Visual C++, .NET runtimes) to ensure zero friction for gaming and software development tasks.
 
 ### ⚠️ Important Note on Copyright & Licensing
-Due to Microsoft’s copyright policies and distribution terms, **pre-built ISO images are NOT provided** in this repository. However, you can use the included `windows-ltsc-debloat-preset.xml` file inside NTLite to build your own clean, optimized image legally from an official Microsoft ISO.
+Due to Microsoft’s copyright policies and distribution terms, **pre-built ISO images are NOT provided** in this repository. However, you can use the included `clean-ltsc-preset.xml` file inside NTLite to build your own clean, optimized image legally from an official Microsoft ISO.
 
 ### 🚀 Step-by-Step Guide: How to Build Your Custom LTSC Image
 1. **Download the Official ISO:** Obtain an official evaluation or licensed **Windows 11 Enterprise LTSC** ISO from the official Microsoft Evaluation Center or your MSDN/VLSC portal.
@@ -54,7 +54,7 @@ Standart işletim sistemleri; arka planda çalışan gereksiz servisler, telemet
 * **Donanım ve Geliştirici Uyumluluğu:** Oyunlar ve yazılım geliştirme araçları için hayati önem taşıyan DirectX, Visual C++, .NET çalışma zamanları eksiksiz bir şekilde korundu.
 
 ### ⚠️ Telif Hakkı ve Lisanslama Üzerine Önemli Not
-Microsoft'un telif hakkı politikaları ve dağıtım koşulları nedeniyle bu repoda **hazır ISO görüntüleri YER ALMAMAKTADIR**. Ancak, resmi bir Microsoft ISO'sundan kendi temiz imajınızı yasal olarak oluşturmak için NTLite içinde ürünle birlikte gelen `windows-ltsc-debloat-preset.xml` dosyasını kullanabilirsiniz.
+Microsoft'un telif hakkı politikaları ve dağıtım koşulları nedeniyle bu repoda **hazır ISO görüntüleri YER ALMAMAKTADIR**. Ancak, resmi bir Microsoft ISO'sundan kendi temiz imajınızı yasal olarak oluşturmak için NTLite içinde ürünle birlikte gelen `clean-ltsc-preset.xml` dosyasını kullanabilirsiniz.
 
 ### 🚀 Adım Adım Rehber: Özel LTSC İmajınızı Nasıl Oluşturursunuz?
 1. **Orijinal ISO'yu İndirin:** Microsoft Evaluation Center veya resmi lisanslı kanallar üzerinden orijinal **Windows 11 Enterprise LTSC** ISO dosyasını temin edin.
